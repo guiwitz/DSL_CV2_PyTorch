@@ -1,0 +1,19 @@
+name: dslpytorch
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - pytorch-lightning
+  - scikit-image
+  - imagecodecs
+  - matplotlib
+  - pandas
+  - seaborn
+  - pip
+  - jupyterlab
+  - tqdm
+  - pip:
+    - transformers
